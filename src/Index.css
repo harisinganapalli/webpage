@@ -1,0 +1,192 @@
+.page-color{
+    background-color: #141416;
+}
+.card-color{
+    background-color: #212130;
+    
+ }
+ .search-color{
+    background-color: #2a2b30;
+ }
+
+ .text-color{
+    color: white;
+ }
+ .arrowcolorred{
+    color:red;
+ }
+ .arrowcolorgreen{
+    color:#19896B;
+ }
+ .goalcolor{
+    background-color: #5F3237;
+ }
+ .popularcolor{
+    background-color: #293368;
+ }
+ .menucolor{
+    background-color: #214A60;
+ }
+ .top{
+     margin-top: 0;
+ }
+ .header {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+     }
+.header .search-bar {
+    background-color: #2d2d36;
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    color: #ffffff;
+    width: 300px;
+}
+.iconsize{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;  
+}
+ .icon-container {
+ background-color: #444549; /* Background color */
+ color:#e0dada; /* Icon color */
+ font-size: 20px;
+
+}
+.card {
+    background-color: #212130;
+    border-radius: 8px;
+    flex: 1;
+}
+.imagesize{
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+ }
+.card-title {
+    font-size: 1.2em;
+    /* margin-bottom: 10px; */
+}
+.card .value {
+    font-size: 1.5em;
+    /* margin-bottom: 5px; */
+   
+}
+
+.menu-item-arrow {
+    margin-left: auto;
+}
+
+.arrowsize{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;  
+    background-color: #48494E;
+ }
+
+ th,tr {
+   text-align: left;
+   border-bottom: 1px solid #39393a;
+ }
+
+ .orderupdate{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 80px;
+   height: 22px;
+   border-radius: 16px; 
+}
+.ordersuccesscolor{
+background-color: #184F45 !important;
+color:#19896B !important
+
+}
+
+.ordercancelcolor{
+   background-color: #5D313A !important;
+   color: #b5595d !important;
+}
+
+.totalsize{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 40px;
+   height: 40px;
+   border-radius: 25%;  
+}
+
+.dollorcolor{
+   color:#FF93D2;
+   background-color : #5C2D48
+
+}
+
+
+ .MuiChartsAxis-tickLabel {
+   fill:#FFFFFF !important;
+}
+
+@media only screen and (min-width: 769px) {
+  /* For desktop: */
+.poweroff{
+   position: fixed;
+}
+.mobile-view {
+   display: none !important;
+ }
+ .text-desktop{
+   text-align:right ;
+ }
+ .tablet-laptop-view {
+   display: none !important;
+ } 
+}
+
+@media only screen and (min-width: 481px) and (max-width : 768px) {
+   /* For tablet*/
+ 
+   .tablet-laptop-view {
+      display: none !important;
+    }
+    
+   .tablet-space{
+      margin-top: 10px;
+   } 
+ }
+
+ @media only screen and (min-width: 320px) and (max-width : 480px) {
+   /* For mobile*/
+ 
+   .laptop-tablet-view{
+      display: none !important;
+   } 
+
+   .feebback-space{
+      margin-top: 10px;
+   } 
+ }
+
+@media only screen and (min-width: 320px) and (max-width : 768px) {
+   /* For mobile and tablet: */
+ 
+   .laptop-view{
+      display: none !important;
+   } 
+ }
+
+
+ 
+
+
+
